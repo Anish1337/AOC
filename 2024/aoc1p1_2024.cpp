@@ -22,6 +22,10 @@ int main() {
     sort(list1.begin(), list1.end());
     sort(list2.begin(), list2.end());
 
+    for (int i=0; i < list1.size();i++){
+         cout << "List1" << list1[i] << "List2" << list2[i] << endl;
+    }
+
     for (int i = 0; i < list1.size(); i++){
         totalDist += abs(list1[i]-list2[i]);
     } 
