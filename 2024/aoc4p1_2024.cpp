@@ -68,11 +68,9 @@ int main() {
     }
     inputFile.close();
 
-    // word to search
-    string word = "XMAS";
     
     // output
-    cout << countWordOccurrences(grid, word) << endl;
+    cout << countWordOccurrences(grid, "XMAS") << endl;
     return 0;
 }
 
